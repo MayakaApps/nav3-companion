@@ -62,27 +62,28 @@ mavenPublishing {
 
     pom {
         name = "Navigation3 Companion"
-        description = "A library."
+        description =
+            "A KMP library that provides utilities to work with Navigation3 in a more convenient way."
         inceptionYear = "2026"
         url = "https://github.com/MayakaApps/nav3-companion"
         licenses {
             license {
-                name = "XXX"
-                url = "YYY"
-                distribution = "ZZZ"
+                name = "The Apache License, Version 2.0"
+                url = "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                distribution = "repo"
             }
         }
         developers {
             developer {
-                id = "XXX"
-                name = "YYY"
-                url = "ZZZ"
+                id = "MayakaApps"
+                name = "MayakaApps"
+                url = "https://github.com/MayakaApps"
             }
         }
         scm {
-            url = "XXX"
-            connection = "YYY"
-            developerConnection = "ZZZ"
+            url = "https://github.com/MayakaApps/nav3-companion"
+            connection = "scm:git:https://github.com/MayakaApps/nav3-companion.git"
+            developerConnection = "scm:git:ssh://git@github.com/MayakaApps/nav3-companion.git"
         }
     }
 }
