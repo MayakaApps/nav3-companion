@@ -1,0 +1,7 @@
+package com.mayakapps.nav3sample.feature.home.api
+
+import androidx.navigation3.runtime.NavKey
+import kotlinx.serialization.Serializable
+
+@Serializable
+data object HomeRoute : NavKey
