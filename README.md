@@ -71,7 +71,7 @@ Finally, set up your `NavDisplay` and `NavBackStack`:
 fun App() {
     val navigator = koinInject<Navigator>()
     val backStack = rememberNavBackStack(
-        configuration = Nav3cSavedStateConfiguration(),
+        configuration = nav3cSavedStateConfiguration(),
         HomeRoute,
     )
 

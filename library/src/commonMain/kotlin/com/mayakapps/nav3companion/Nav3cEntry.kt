@@ -55,9 +55,8 @@ fun <T : Any> nav3cEntryProvider(scope: Scope = currentKoinScope()): (T) -> NavE
  * Creates a [SavedStateConfiguration] that includes serializers for all navigation entries
  * registered by [nav3cEntry] to be used with Navigation 3's `rememberNavBackStack` function.
  */
-@Suppress("ComposableNaming")
 @Composable
-fun Nav3cSavedStateConfiguration(
+fun nav3cSavedStateConfiguration(
     from: SavedStateConfiguration = SavedStateConfiguration.DEFAULT,
     builderAction: Builder.() -> Unit = {},
 ): SavedStateConfiguration {

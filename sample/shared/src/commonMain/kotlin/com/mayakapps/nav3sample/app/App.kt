@@ -10,7 +10,7 @@ import androidx.lifecycle.viewmodel.navigation3.rememberViewModelStoreNavEntryDe
 import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.runtime.rememberSaveableStateHolderNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
-import com.mayakapps.nav3companion.Nav3cSavedStateConfiguration
+import com.mayakapps.nav3companion.nav3cSavedStateConfiguration
 import com.mayakapps.nav3companion.nav3cEntryProvider
 import com.mayakapps.nav3sample.feature.home.api.HomeRoute
 import com.mayakapps.nav3sample.navigation.Navigator
@@ -20,7 +20,7 @@ import org.koin.compose.koinInject
 fun App() {
     val navigator = koinInject<Navigator>()
     val backStack = rememberNavBackStack(
-        configuration = Nav3cSavedStateConfiguration(),
+        configuration = nav3cSavedStateConfiguration(),
         HomeRoute,
     )
 
