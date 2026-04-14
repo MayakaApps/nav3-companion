@@ -9,6 +9,8 @@ group = "com.mayakapps"
 version = "0.1.0"
 
 kotlin {
+    compilerOptions.freeCompilerArgs.add("-Xexpect-actual-classes")
+
     applyDefaultHierarchyTemplate()
 
     jvmToolchain(21)
